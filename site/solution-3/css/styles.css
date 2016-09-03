@@ -1,0 +1,61 @@
+*{
+
+}
+
+
+.colorfondoazul{
+	background-color: blue;
+}
+
+.colorletrablanco{
+	color:white;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	color: white;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#contenido{
+	height: 1000px;
+	background-color: green;
+	margin: 20px;
+}
+
+#titulo{
+	background-color: yellow;
+	margin: 0px;
+	padding: 10px;
+}
+
+#brandtext {
+color: white;
+font-size: 1.5em;
+}
+
+.icon-bar{
+	color: white;
+}
+
+.navbar-default{
+	margin: 0px;
+}
+
+.navbar-default .navbar-toggle
+{
+
+	background-color: red;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+	background-color: green;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+	background-color: red;
+	color: black;
+}
