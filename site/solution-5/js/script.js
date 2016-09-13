@@ -39,6 +39,7 @@ var showLoading = function (selector) {
 // Return substitute of '{{propName}}'
 // with propValue in given 'string'
 var insertProperty = function (string, propName, propValue) {
+
   var propToReplace = "{{" + propName + "}}";
   string = string
     .replace(new RegExp(propToReplace, "g"), propValue);
@@ -117,7 +118,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       var homeHtmlToInsertIntoMainPage = 
-      insertProperty(homeHtmlToInsertIntoMainPage,
+      insertProperty(homeHtml,
                      "short_name",
                      chosenCategoryShortName);
 
